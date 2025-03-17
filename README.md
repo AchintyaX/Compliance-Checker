@@ -32,6 +32,6 @@ also it provides a reason behind why the compliance is met or not
 
 ### Chain Compliance Checker 
 Given the facts, the chain checker first prepares a chain of thought in the input page which is an initial thought analysis
-Using the facts and the intitial analysis we pass them and get the compliance check results in the same format as base Compliance checker
+using the facts and the intitial analysis we pass them and get the compliance check results in the same format as base Compliance checker
 
 
