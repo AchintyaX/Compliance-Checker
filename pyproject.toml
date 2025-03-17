@@ -1,0 +1,22 @@
+[project]
+name = "compliance-ai"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Achintya Shankhdhar",email = "achintyashankhdhar@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "openai (>=1.66.3,<2.0.0)",
+    "fastapi (>=0.115.11,<0.116.0)",
+    "llama-index (>=0.12.24,<0.13.0)",
+    "llama-index-readers-web (>=0.3.8,<0.4.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "uvicorn (>=0.34.0,<0.35.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
